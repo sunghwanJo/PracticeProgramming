@@ -1,4 +1,8 @@
 from Tkinter import *
-button = Button(None, text='button')
+
+def callback():
+	print 1
+
+button = Button(None, text='button', command='callback')
 button.pack()
 mainloop()
