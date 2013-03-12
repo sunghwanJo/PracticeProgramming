@@ -3,6 +3,6 @@ from Tkinter import *
 def callback():
 	print 1
 
-button = Button(None, text='button', command='callback')
+button7 = Button(None, text='button', command='callback')
 button.pack()
 mainloop()
